@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 150px;
+    background-color: darkgreen;
+    margin: 0 0 0 0;
+    padding: 15px 15px 15px 15px ;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+}
+
+.addline{
+    text-decoration: line-through;
+}
+
+#text{
+    width: 400px;
+    height: 34px;
+}
+
+.checkbox{
+    width: 100px;
+}
+
+.items>div{
+    display: inline-grid;
+    padding: 8px;
+    font-size: 17px;
+    position: relative;
+}
+
+hr{
+   box-shadow: 0 0 1px black; 
+}
+
+#remove{
+    margin-left: 160px;
+    display: none;
+}
+
+#remove:hover{
+    border-radius: 200px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+body{
+    background-color: green;
+    min-height: 100vh;
+}
+
+main{
+    min-width: 100%;
+}
+
+.container{
+    margin: 25px;
+    margin-left: 35%;
+    background-color: rgb(223, 223, 223);
+    border-radius: 20px;
+    width: 450px;
+    height: 400px;
+    box-shadow: 15px 15px 15px black;
+}
+
+#name{
+    margin-left: 50px;
+}
